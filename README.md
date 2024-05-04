@@ -17,3 +17,8 @@ This repository is designed to help beginner learners understand and practice we
 2. Install the required Python libraries (Beautiful Soup, requests, lxml).
 3. Open the Jupyter *Notebooks/VS code/google colab* in the numbered order and follow along.
 4. Complete the exercises and projects to reinforce your learning.
+
+## Contributing
+
+Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
