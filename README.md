@@ -8,7 +8,7 @@ This repository is designed to help beginner learners understand and practice we
 2. [Installing and Setting Up](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#2-installing-and-setting-up)
 3. [Beautiful Soup Basics](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#3--beautiful-soup-basics)
 4. [Extracting Data](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#4-extracting-data)
-5. [Advanced Topics]()
+5. [Advanced Topics](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#5-advanced-topics)
 6. [Projects and Exercises]()
 
 ## Getting Started
@@ -125,3 +125,55 @@ for li in soup.ul.find_all("li"):
 ```
 
 ### 5. Advanced Topics
+
+```
+import requests
+from bs4 import BeautifulSoup
+import csv
+
+# Handling JavaScript-rendered content
+driver = webdriver.Chrome()
+url = "https://www.example.com/dynamic-content"
+driver.get(url)
+html_content = driver.page_source
+soup = BeautifulSoup(html_content, "html.parser")
+
+# Working with CSV and Excel files
+with open("data.csv", "w", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["Name", "Email", "Phone"])
+    for contact in soup.find_all("div", class_="contact"):
+        name = contact.find("h3").text
+        email = contact.find("a").text
+        phone = contact.find("span", class_="phone").text
+        writer.writerow([name, email, phone])
+
+# Scraping data from APIs
+import requests
+import json
+
+api_url = "https://api.example.com/products"
+response = requests.get(api_url)
+data = json.loads(response.text)
+
+for product in data["products"]:
+    print(f"Name: {product['name']}, Price: {product['price']}")
+
+# Handling pagination and crawling multiple pages
+base_url = "https://www.example.com/products"
+page = 1
+
+while True:
+    url = f"{base_url}?page={page}"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    products = soup.find_all("div", class_="product")
+    if not products:
+        break
+
+    for product in products:
+        # Extract product data
+
+    page += 1
+    ```
