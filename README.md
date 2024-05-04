@@ -5,7 +5,7 @@ This repository is designed to help beginner learners understand and practice we
 ## Table of Contents
 
 1. [Introduction to Web Scraping](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#1-introduction-to-web-scraping)
-2. [Installing and Setting Up]()
+2. [Installing and Setting Up](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#2-installing-and-setting-up)
 3. [Beautiful Soup Basics]()
 4. [Extracting Data]()
 5. [Advanced Topics]()
@@ -43,7 +43,7 @@ Web scraping is the process of extracting data from websites using software tool
 - Give attribution and credit to the original source if required
 
   
-### 2. [Installing and Setting Up](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#2-installing-and-setting-up)
+### 2. Installing and Setting Up
 
 - Installing Python
 Install Python from the official website: https://www.python.org/downloads/
