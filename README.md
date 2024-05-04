@@ -43,7 +43,7 @@ Web scraping is the process of extracting data from websites using software tool
 - Give attribution and credit to the original source if required
 
   
-### 2. Installing and Setting Up
+### 2. [Installing and Setting Up](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#2-installing-and-setting-up)
 
 - Installing Python
 Install Python from the official website: https://www.python.org/downloads/
