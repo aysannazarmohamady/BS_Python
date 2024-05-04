@@ -92,3 +92,36 @@ print(soup.find("a", href="https://pythonprogramming.net/parsememcparseface/"))
 # <a href="https://pythonprogramming.net/parsememcparseface/">More information...</a>
 ```
 
+
+### 4. Extracting Data
+
+```
+import requests
+from bs4 import BeautifulSoup
+
+# Fetching a webpage
+url = "https://pythonprogramming.net/parsememcparseface/"
+response = requests.get(url)
+html_content = response.content
+
+# Parsing the HTML
+soup = BeautifulSoup(html_content, "html.parser")
+
+# Extracting text content
+print(soup.body.p.text)
+# This domain is for use in illustrative examples in documents.
+
+# Extracting attributes
+link = soup.find("a")
+print(link["href"])
+
+
+# Dealing with nested structures
+for li in soup.ul.find_all("li"):
+    print(li.text)
+# List item 1
+# List item 2
+# List item 3
+```
+
+### 5. Advanced Topics
