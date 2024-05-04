@@ -4,7 +4,7 @@ This repository is designed to help beginner learners understand and practice we
 
 ## Table of Contents
 
-1. Introduction to Web Scraping
+1. [Introduction to Web Scraping](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#1-introduction-to-web-scraping)
 2. [Installing and Setting Up]()
 3. [Beautiful Soup Basics]()
 4. [Extracting Data]()
