@@ -2,6 +2,8 @@
 
 This repository is designed to help beginner learners understand and practice web scraping using the Beautiful Soup library in Python. It contains a series of Notebooks with explanations, examples, and exercises to guide you through the learning process.
 
+![image](https://github.com/aysannazarmohamady/BS_Python/assets/30371881/0d260878-1a47-4cd4-92dc-85c162fc8e7e)
+
 ## Table of Contents
 
 1. [Introduction to Web Scraping](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#1-introduction-to-web-scraping)
