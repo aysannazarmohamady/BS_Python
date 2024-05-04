@@ -9,7 +9,7 @@ This repository is designed to help beginner learners understand and practice we
 3. [Beautiful Soup Basics](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#3--beautiful-soup-basics)
 4. [Extracting Data](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#4-extracting-data)
 5. [Advanced Topics](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#5-advanced-topics)
-6. [Projects and Exercises]()
+6. [An Exercise]()
 
 ## Getting Started
 
@@ -180,4 +180,11 @@ while True:
         # Extract product data
 
     page += 1
-    ```
+```
+
+### 6. An Exercise
+
+This notebook in google colab contains a practice exercise, as well as real-world project ideas.
+[Web scraping with BS4](https://colab.research.google.com/drive/14weDrUED3zvfGTiVvjziclYKaBimmKQ-#scrollTo=UKqZdcGXLNWd)
+
+
