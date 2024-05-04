@@ -11,7 +11,7 @@ This repository is designed to help beginner learners understand and practice we
 5. [Advanced Topics]()
 6. [Projects and Exercises]()
 
-7. ## Getting Started
+## Getting Started
 
 1. Clone the repository or download the ZIP file.
 2. Install the required Python libraries (Beautiful Soup, requests, lxml).
