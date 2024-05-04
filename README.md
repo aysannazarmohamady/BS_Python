@@ -43,3 +43,19 @@ Web scraping is the process of extracting data from websites using software tool
 - Give attribution and credit to the original source if required
 
   
+### 2. Installing and Setting Up
+
+- Installing Python
+Install Python from the official website: https://www.python.org/downloads/
+
+- Installing Beautiful Soup
+```
+import sys
+!{sys.executable} -m pip install beautifulsoup4
+```
+
+- Installing other required libraries
+```
+!{sys.executable} -m pip install requests
+!{sys.executable} -m pip install lxml
+```
