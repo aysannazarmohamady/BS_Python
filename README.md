@@ -6,7 +6,7 @@ This repository is designed to help beginner learners understand and practice we
 
 1. [Introduction to Web Scraping](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#1-introduction-to-web-scraping)
 2. [Installing and Setting Up](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#2-installing-and-setting-up)
-3. [Beautiful Soup Basics]()
+3. [Beautiful Soup Basics](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#3--beautiful-soup-basics)
 4. [Extracting Data](https://github.com/aysannazarmohamady/BS_Python/blob/main/README.md#4-extracting-data)
 5. [Advanced Topics]()
 6. [Projects and Exercises]()
