@@ -95,6 +95,8 @@ print(soup.find("a", href="https://pythonprogramming.net/parsememcparseface/"))
 
 ### 4. Extracting Data
 
+This notebook focuses on extracting data from HTML documents, including text content, attributes, and handling nested structures.
+
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -125,6 +127,8 @@ for li in soup.ul.find_all("li"):
 ```
 
 ### 5. Advanced Topics
+
+This notebook covers advanced topics in web scraping, including handling JavaScript-rendered content, working with CSV and Excel files, scraping data from APIs, and handling pagination and crawling multiple pages.
 
 ```
 import requests
