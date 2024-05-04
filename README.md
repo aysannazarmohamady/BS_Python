@@ -10,3 +10,10 @@ This repository is designed to help beginner learners understand and practice we
 4. [Extracting Data]()
 5. [Advanced Topics]()
 6. [Projects and Exercises]()
+
+7. ## Getting Started
+
+1. Clone the repository or download the ZIP file.
+2. Install the required Python libraries (Beautiful Soup, requests, lxml).
+3. Open the Jupyter *Notebooks/VS code/google colab* in the numbered order and follow along.
+4. Complete the exercises and projects to reinforce your learning.
