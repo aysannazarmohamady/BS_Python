@@ -4,7 +4,7 @@ This repository is designed to help beginner learners understand and practice we
 
 ## Table of Contents
 
-1. [Introduction to Web Scraping]()
+1. [Introduction to Web Scraping](notebooks/01_introduction.ipynb)
 2. [Installing and Setting Up]()
 3. [Beautiful Soup Basics]()
 4. [Extracting Data]()
@@ -22,3 +22,31 @@ This repository is designed to help beginner learners understand and practice we
 
 Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
+
+### 1. Introduction to Web Scraping
+
+[notebooks/01_introduction.ipynb](notebooks/01_introduction.ipynb)
+
+```python
+# What is web scraping?
+print("Web scraping is the process of extracting data from websites using software tools.")
+
+# Use cases for web scraping
+use_cases = [
+    "Price monitoring and comparison",
+    "Research and data analysis",
+    "Job listing aggregation",
+    "Content aggregation (news, articles, etc.)",
+    "Lead generation and contact information extraction"
+]
+
+print("Some common use cases for web scraping include:")
+for case in use_cases:
+    print(f"- {case}")
+
+# Legal and ethical considerations
+print("\nLegal and ethical considerations:")
+print("- Check the website's terms of service and robots.txt file")
+print("- Respect the website's rate limiting and avoid overloading their servers")
+print("- Don't scrape sensitive or personal data without permission")
+print("- Give attribution and credit to the original source if required")
