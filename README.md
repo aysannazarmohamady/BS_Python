@@ -59,3 +59,36 @@ import sys
 !{sys.executable} -m pip install requests
 !{sys.executable} -m pip install lxml
 ```
+*This notebook guides you through installing Python, Beautiful Soup, and other required libraries (requests and lxml) on your system.*
+
+
+### 3.  Beautiful Soup Basics
+
+```
+import requests
+from bs4 import BeautifulSoup
+
+# Fetching a webpage
+url = "https://pythonprogramming.net/parsememcparseface/"
+response = requests.get(url)
+html_content = response.content
+
+# Parsing the HTML
+soup = BeautifulSoup(html_content, "html.parser")
+
+# Navigating the parsed tree
+print(soup.title)
+# <title>Python Programming Tutorials</title>
+
+print(soup.body.h1)
+
+
+# Finding elements by tag
+print(soup.find("h1"))
+
+
+# Finding elements by attributes
+print(soup.find("a", href="https://pythonprogramming.net/parsememcparseface/"))
+# <a href="https://pythonprogramming.net/parsememcparseface/">More information...</a>
+```
+
